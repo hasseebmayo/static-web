@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-collection {
+    display: flex;
+    height:40px;
+    background-color: rgb(10 161 221);
+  
+  
+}
+.navbar-collection li {
+    padding-top: 10px;
+    margin-left: 20px;
+    list-style: none;
+    text-align: center;
+}
+.navbar-collection li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.navbar-collection li a:last-child {
+   
+}
+.navbar-collection li:hover {
+    opacity: 0.7;
+}
+

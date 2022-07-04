@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+.bg-imges {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/img-1.jpg') , url('../images/img-2.jpg') ;
+    background-repeat: no-repeat;
+    /* background-size: 50%  50%; */
+    background-position: left, right;
+    background-blend-mode: darken;
+    opacity: 0.85;
+    
+    background-size: 50% 100%,
+    50% 100%,100% 100%;
+}
+.heading-main {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #49933D;
+    /* color: #c6ac8f; */
+    z-index: 1000;
+}
+.heading-center span {
+    font-size: 50px;
+    display: block;
+    
+}
+.heading-link {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-left: 100px;
+    
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #49933D;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 8px;
+    z-index: 1000;
+
+    
+}
+.heading-link:hover {
+    opacity: 0.9;
+}
+.products {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+
+}
+.same {
+    width: 300px;
+    height: 500px;
+    
+    position: relative;
+    margin: 20px;
+}
+.same img {
+    height: 300px;
+    width: 100%;
+    border-radius: 6px;
+}
+.same img:hover {
+    transform: scale(1.05);
+    transition: 0.5s ;
+    transition-timing-function: ease-in-out;
+}
+.addCart {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.806);
+    height: 40px;
+    border-radius: 50%;
+    font-size: 34px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+.addCart:hover {
+    transform: rotate(180deg);
+    transition: 0.4s ease-in-out;
+    border: 1px solid black;
+}
+.same h2 {
+    padding: 10px;
+}
+.same p {
+    padding: 3px 10px;
+}
+.heading-products h1 {
+    text-align: center;
+    margin-top:40px ;
+}
+.heading-products h1:hover {
+    opacity: 0.9;
+    text-decoration: underline;
+    cursor: pointer;
+}
